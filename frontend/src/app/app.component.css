@@ -1,0 +1,30 @@
+.container {
+    margin: 48px 35%;
+    font-family: "Arial", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    background-color: transparent;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.link {
+    color: white;
+    transition: all 0.1s ease-in-out;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.link:hover{
+    color: darkcyan;
+}

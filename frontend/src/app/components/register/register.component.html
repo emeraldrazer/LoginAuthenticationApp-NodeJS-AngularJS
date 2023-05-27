@@ -1,0 +1,9 @@
+<div class="register">
+    <h1>Register</h1>
+    <input type="text" class="textarea-as-input" #fullname placeholder="Full Name">
+    <input type="any" class="textarea-as-input" #username placeholder="Username">
+    <input type="email" class="textarea-as-input" #email placeholder="Email">
+    <input type="password" class="textarea-as-input" #password placeholder="Enter your password">
+    <button id="registerBTN" class="myButton" (click)="registerClick(fullname, username, email, password)">Register</button>
+    <a href="/login" class="redirect">Login</a>    
+</div>
